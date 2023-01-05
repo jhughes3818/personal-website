@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="w-1/2 mx-auto p-7 my-12 bg-purple-200 rounded-3xl">
+    <div className="md:w-1/2 mx-auto p-7 my-12 bg-purple-200 rounded-3xl">
       <div className="md:flex break-words gap-6">
         <div>
           <h1 className="text-4xl font-semibold">Having Fun.</h1>
@@ -17,7 +17,7 @@ export default function Header() {
         </div>
         <div>
           <img
-            className="h-96 w-96 rounded-lg object-cover shadow-lg"
+            className="h-96 w-96 rounded-lg object-cover shadow-lg mt-5 md:mt-0"
             src="/images/hero2.png"
           ></img>
         </div>
