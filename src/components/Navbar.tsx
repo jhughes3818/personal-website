@@ -8,9 +8,9 @@ export default function Navbar() {
             alt="Jason Hughes"
             className="w-8 h-8 rounded-full"
           />
-          <span className="hidden sm:block text-lg font-semibold ml-4">
+          <a href="/" className="hidden sm:block text-lg font-semibold ml-4">
             Jason Hughes
-          </span>
+          </a>
         </div>
         <div className="flex md:block">
           <ul className="flex items-center">
