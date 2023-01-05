@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <div className="grid place-items-center py-16 h-2/4">
       <div className="bg-purple-100 rounded-3xl">
-        <div className="grid place-items-center w-full">
+        <div className="grid place-items-center">
           <div className="flex">
             <div className="p-7 h-fit">
               <h1 className="text-4xl font-semibold">Having Fun.</h1>
@@ -13,7 +13,7 @@ export default function Header() {
                 I’m a product manager with experience in FinTech. Outside work,
                 I like to build things, run ultra-marathons and climb mountains.
               </p>
-              <button className="bg-purple-500 h-12 w-36 rounded-lg text-white align-bottom mt-3">
+              <button className="bg-purple-500 h-12 w-36 rounded-lg text-white text-lg align-bottom mt-3">
                 Reach Out
               </button>
             </div>
