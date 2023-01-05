@@ -3,7 +3,7 @@ export default function Header() {
     <div className="grid place-items-center py-16 h-2/4">
       <div className="bg-purple-100 rounded-3xl">
         <div className="grid place-items-center">
-          <div className="flex">
+          <div className="md:flex">
             <div className="p-7 h-fit">
               <h1 className="text-4xl font-semibold">Having Fun.</h1>
               <h1 className="text-4xl font-bold text-purple-500">
