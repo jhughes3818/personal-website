@@ -1,9 +1,13 @@
+import FantasyGrid from "./Projects/FantasyGrid";
+
 export default function Projects() {
   return (
     <>
-      <div className="w-1/2 mx-auto p-7 bg-blue-200 rounded-3xl">
-        <h1 className="text-4xl font-bold text-blue-500">Projects</h1>
-        <p className="text-lg text-gray-500">Projects</p>
+      <div className="w-1/2 mx-auto p-7">
+        <h1 className="text-4xl font-bold">Projects</h1>
+      </div>
+      <div className="w-1/2 mx-auto p-7 bg-blue-100 rounded-3xl mb-4">
+        <FantasyGrid />
       </div>
     </>
   );
