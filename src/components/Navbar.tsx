@@ -3,11 +3,13 @@ export default function Navbar() {
     <nav className="bg-white h-12 fixed top-0 left-0 right-0 z-50 md:w-1/2 mx-auto bg-opacity-50 px-2">
       <div className="container h-full flex items-left md:items-center justify-between">
         <div className="flex items-center">
-          <img
-            src="/images/avatar.png"
-            alt="Jason Hughes"
-            className="w-8 h-8 rounded-full"
-          />
+          <a href="/">
+            <img
+              src="/images/avatar.png"
+              alt="Jason Hughes"
+              className="w-8 h-8 rounded-full"
+            />
+          </a>
           <a href="/" className="hidden sm:block text-lg font-semibold ml-4">
             Jason Hughes
           </a>
@@ -15,17 +17,17 @@ export default function Navbar() {
         <div className="flex md:block">
           <ul className="flex items-center">
             <li>
-              <a href="#" className="text-gray-600 hover:text-gray-800 mr-6">
+              <a href="/" className="text-gray-600 hover:text-gray-800 mr-6">
                 Home
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="text-gray-600 hover:text-gray-800 mr-6">
                 About
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="#" className="text-gray-600 hover:text-gray-800">
+              <a href="/contact" className="text-gray-600 hover:text-gray-800">
                 Contact
               </a>
             </li>

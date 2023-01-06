@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="md:w-1/2 mx-auto p-7 my-12 bg-purple-200 rounded-3xl">
+    <div className="md:w-1/2 mx-auto p-7 mt-12 bg-purple-200 rounded-3xl">
       <div className="md:flex break-words gap-6">
         <div>
           <h1 className="text-4xl font-semibold">Having Fun.</h1>
@@ -11,9 +11,11 @@ export default function Header() {
             I’m a product manager with experience in FinTech. Outside work, I
             like to build things, run ultra-marathons and climb mountains.
           </p>
-          <button className="bg-purple-500 h-12 w-36 rounded-lg text-white text-lg align-bottom mt-3">
-            Reach Out
-          </button>
+          <a href="/contact">
+            <button className="bg-purple-500 h-12 w-36 rounded-lg text-white text-lg align-bottom mt-3">
+              Reach Out
+            </button>
+          </a>
         </div>
         <div>
           <img
