@@ -18,7 +18,7 @@ export default function Header() {
         <div>
           <img
             className="h-96 w-96 rounded-lg object-cover shadow-lg mt-5 md:mt-0"
-            src="/images/hero2.png"
+            src="/images/hero3purple.png"
           ></img>
         </div>
       </div>
