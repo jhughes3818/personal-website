@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <a href="/">
             <img
-              src="/images/avatar.png"
+              src="/images/avatar.webp"
               alt="Jason Hughes"
               className="w-8 h-8 rounded-full"
             />
