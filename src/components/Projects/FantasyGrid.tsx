@@ -19,7 +19,7 @@ export default function FantasyGrid() {
       </div>
       <div>
         <img
-          src="/images/f1-fantasy.png"
+          src="/images/f1-fantasy.webp"
           alt="Fantasy Grid"
           className="w-96 h-96 rounded-lg object-cover shadow-lg mt-5 md:mt-0"
         />
