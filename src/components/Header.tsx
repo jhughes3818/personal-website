@@ -20,7 +20,7 @@ export default function Header() {
         <div>
           <img
             className="h-96 w-96 rounded-lg object-cover shadow-lg mt-5 md:mt-0"
-            src="/images/hero3purple.webp"
+            src="/images/hero3hi.webp"
           ></img>
         </div>
       </div>
