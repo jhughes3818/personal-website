@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="bg-white h-12 fixed top-0 left-0 right-0 z-50 md:w-1/2 mx-auto bg-opacity-50 px-2">
+    <nav className="bg-white h-12 fixed top-0 left-0 right-0 z-50 lg:w-2/3 mx-auto bg-opacity-50 px-2">
       <div className="container h-full flex items-left md:items-center justify-between">
         <div className="flex items-center">
           <a href="/">
