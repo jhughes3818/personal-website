@@ -21,16 +21,27 @@ export default function Navbar() {
                 Home
               </a>
             </li>
-            {/* <li>
-              <a href="#" className="text-gray-600 hover:text-gray-800 mr-6">
-                About
+            <li>
+              <a
+                href="https://jasonsnewsletter.substack.com/"
+                className="text-gray-600 hover:text-gray-800 mr-6"
+              >
+                My Writing
               </a>
-            </li> */}
+            </li>
             <li>
               <a href="/contact" className="text-gray-600 hover:text-gray-800">
                 Contact
               </a>
             </li>
+            {/* <li>
+              <a
+                href="https://jasonsnewsletter.substack.com/"
+                className="text-gray-600 hover:text-gray-800"
+              >
+                My Writing
+              </a>
+            </li> */}
           </ul>
         </div>
       </div>
