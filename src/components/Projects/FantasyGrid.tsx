@@ -39,7 +39,7 @@ export default function FantasyGrid() {
           pricing system for the drivers, which I designed based on frustrations
           myself and my friends had with the official app.
         </p>
-        <button className="bg-blue-500 h-12 w-36 rounded-lg text-white text-lg align-bottom mt-3">
+        <button className="bg-blue-500 h-12 w-36 rounded-lg text-white text-lg align-bottom mt-3 duration-300 hover:bg-blue-600 hover:scale-110 transition-all hover:text-gray-100">
           <a href="https://fantasygrid.app/">Play F1 Fantasy</a>
         </button>
       </div>
